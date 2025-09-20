@@ -2,14 +2,13 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Icon from "@/components/ui/Icon";
 
-import Drawer from "@/components/ui/Drawer";
 import lightLogo from "../../assets/home/logoLightNew.png";
 import darkLogo from "@/assets/about us/darkLogo.png";
 
 const NavBar = () => {
   const location = useLocation();
   const [scrolled, setScrolled] = useState(false);
-  const [drawerOpen, setDrawerOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   // Detect scroll
   useEffect(() => {
@@ -39,8 +38,8 @@ const NavBar = () => {
           : "bg-gradient-to-r from-[#8EE261]/60 to-[#D1E0C8]/60 backdrop-blur-sm shadow-sm"
       }`}
     >
-      <div className="container mx-auto 2xl:px-32">
-        <div className="flex items-center justify-between h-30">
+      <div className="container mx-auto 2xl:px-32 max-md:px-6">
+        <div className="flex items-center justify-between h-36">
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="flex">
@@ -62,17 +61,17 @@ const NavBar = () => {
                 <Link
                   key={path}
                   to={path}
-                  className={`relative text-base transition-all duration-200 
-    after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-full after:h-[2px] 
-    ${
-      isHome
-        ? isActive
-          ? "text-[#264d10] after:bg-[#264d10]"
-          : "text-black after:bg-transparent hover:text-[#264d10] hover:after:bg-[#264d10]"
-        : isActive
-        ? "text-black after:bg-black" // active link black in non-home pages
-        : "text-white after:bg-transparent hover:text-gray-200 hover:after:bg-white"
-    }`}
+                  className={`relative text-base transition-all duration-200
+                    after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-full after:h-[2px]
+                    ${
+                      isHome
+                        ? isActive
+                          ? "text-[#264d10] after:bg-[#264d10]"
+                          : "text-black after:bg-transparent hover:text-[#264d10] hover:after:bg-[#264d10]"
+                        : isActive
+                        ? "text-black after:bg-black"
+                        : "text-white after:bg-transparent hover:text-gray-200 hover:after:bg-white"
+                    }`}
                 >
                   {label}
                 </Link>
@@ -82,7 +81,6 @@ const NavBar = () => {
 
           {/* Icons & Hamburger */}
           <div className="flex items-center gap-6">
-            {/* Desktop icons */}
             <div className="hidden sm:flex gap-6">
               <Link
                 to="/contact-us"
@@ -101,42 +99,36 @@ const NavBar = () => {
               </Link>
             </div>
 
-            {/* Hamburger (mobile) */}
+            {/* Hamburger */}
             <button
               className={`lg:hidden focus:outline-none ${
                 isHome ? "text-black" : "text-white"
               }`}
-              onClick={() => setDrawerOpen(true)}
+              onClick={() => setMenuOpen(!menuOpen)}
             >
-              <Icon icon="heroicons:bars-3" className="w-7 h-7" />
+              <Icon
+                icon={menuOpen ? "heroicons:x-mark" : "heroicons:bars-3"}
+                className="w-7 h-7"
+              />
             </button>
           </div>
         </div>
       </div>
 
-      {/* Drawer for Mobile Nav */}
-      <Drawer
-        isOpen={drawerOpen}
-        onClose={() => setDrawerOpen(false)}
-        title="Menu"
-        width="w-[60vw]"
-      >
-        <div className="flex flex-col space-y-6">
+      {/* Mobile Menu */}
+      {menuOpen && (
+        <div className="lg:hidden bg-white shadow-md absolute top-full left-0 w-full py-6 px-6 space-y-6">
           {links.map(({ path, label }) => {
             const isActive = location.pathname === path;
             return (
               <Link
                 key={path}
                 to={path}
-                onClick={() => setDrawerOpen(false)}
+                onClick={() => setMenuOpen(false)}
                 className={`block text-lg ${
-                  isHome
-                    ? isActive
-                      ? "text-[#264d10]"
-                      : "text-black hover:text-[#264d10]"
-                    : isActive
-                    ? "text-white"
-                    : "text-white hover:text-gray-200"
+                  isActive
+                    ? "text-[#264d10] font-semibold"
+                    : "text-gray-800 hover:text-[#264d10]"
                 }`}
               >
                 {label}
@@ -144,26 +136,20 @@ const NavBar = () => {
             );
           })}
 
-          {/* Icons inside Drawer */}
+          {/* Icons inside mobile menu */}
           <div className="flex gap-6 pt-6">
-            <Link
-              to="/contact-us"
-              className={isHome ? "text-black" : "text-white"}
-            >
+            <Link to="/contact-us" className="text-gray-800">
               <Icon icon="heroicons:phone" className="w-6 h-6" />
             </Link>
-            <Link to="#" className={isHome ? "text-black" : "text-white"}>
+            <Link to="#" className="text-gray-800">
               <Icon icon="heroicons:magnifying-glass" className="w-6 h-6" />
             </Link>
-            <Link
-              to="/shopping-cart"
-              className={isHome ? "text-black" : "text-white"}
-            >
+            <Link to="/shopping-cart" className="text-gray-800">
               <Icon icon="heroicons:shopping-cart" className="w-6 h-6" />
             </Link>
           </div>
         </div>
-      </Drawer>
+      )}
     </header>
   );
 };

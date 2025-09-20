@@ -5,7 +5,7 @@ const Drawer = ({
   onClose,
   title = "Drawer",
   children,
-  width = "w-[80vw]", // default width if not passed
+  width = "w-[80vw]",
 }) => {
   return (
     <div
@@ -13,20 +13,13 @@ const Drawer = ({
         isOpen ? "pointer-events-auto" : "pointer-events-none"
       }`}
     >
-      {/* Overlay */}
-      <div
-        className={`absolute right-0 top-0 h-full ${width} bg-[#fff2f2] shadow-xl transform transition-transform duration-300 ${
-          isOpen ? "translate-x-0" : "translate-x-full"
-        }`}
-      ></div>
-
       {/* Drawer panel */}
       <div
-        className={`absolute right-0 top-0 h-full ${width} bg-light shadow-xl transform transition-transform duration-300 ${
+        className={`absolute right-0 top-0 h-full ${width} bg-white shadow-xl transform transition-transform duration-300 flex flex-col ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        {/* Close Button - OUTSIDE */}
+        {/* Close Button */}
         <button
           onClick={onClose}
           className={`absolute -left-10 top-4 text-white p-1 transition ${
@@ -42,7 +35,7 @@ const Drawer = ({
         </div>
 
         {/* Content */}
-        <div className="p-4 h-[calc(100%-64px)]">{children}</div>
+        <div className="flex-1 overflow-y-auto p-4">{children}</div>
       </div>
     </div>
   );

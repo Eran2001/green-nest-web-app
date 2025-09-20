@@ -4,21 +4,23 @@ import bannerImg from "../../../assets/about us/bannerImg.png";
 
 const TopBanner = () => {
   return (
-    <section className="relative w-full max-sm:pt-26 max-lg:top-16 max-md:top-14">
+    <section className="relative w-full">
       {/* Banner Image */}
       <img
         src={bannerImg}
         alt="top-banner"
-        className="w-full xl:h-[600px] object-cover"
+        className="w-full xl:h-[600px] max-xl:h-[600px] max-lg:h-[500px] object-cover"
       />
 
       {/* Overlay Content */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center">
         {/* Big Title */}
-        <h1 className="text-[135px] font-bold leading-none">ABOUT US</h1>
+        <h1 className="text-[135px] max-xl:text-[90px] max-lg:text-[70px] max-md:text-[50px] font-bold leading-none">
+          ABOUT US
+        </h1>
 
         {/* Breadcrumb */}
-        <p className="text-[28px] mt-4">Home / About Us</p>
+        <p className="text-[28px] max-md:text-[20px] mt-4">Home / About Us</p>
       </div>
     </section>
   );

@@ -24,27 +24,27 @@ const Home = () => {
         <div className="max-sm:px-4 mx-auto max-w-7xl">
           <div className="grid items-start grid-cols-1 gap-12 lg:grid-cols-2">
             {/* Left Content */}
-            <div className="mt-10 sm:mt-14 lg:mt-28">
+            <div className="mt-32 sm:mt-40 lg:mt-28 max-lg:text-center">
               {/* Responsive Title */}
-              <h1 className="mt-4 text-[48px] sm:text-[64px] md:text-[80px] lg:text-[90px] font-semibold text-[#97e070] lg:mt-8">
+              <h1 className="mt-4 max-[400px]:text-[20px] text-[70px] sm:text-[100px] md:text-[150px] lg:text-[90px] font-semibold text-[#97e070] lg:mt-8">
                 Green<span className="text-[#647a5a]">Nest</span>
               </h1>
 
-              <p className="mt-2 text-[20px] sm:text-[28px] md:text-[36px] lg:text-[43px] text-black font-semibold">
+              <p className="mt-2 text-[40px] sm:text-[40px] md:text-[60px] lg:text-[43px] text-black font-semibold">
                 Smart Indoor Plants Market..
               </p>
 
-              <p className="mt-2 text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] text-[#1e1e1e8a] font-normal">
+              <p className="mt-2 text-[28px] sm:text-[36px] md:text-[40px] lg:text-[24px] text-[#1e1e1e8a] font-normal">
                 GreenNest sells houseplants and offers personalized design
                 inspiration for healthier, stylish spaces.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 mt-8 sm:mt-12">
+              <div className="flex flex-col sm:flex-row max-lg:justify-center gap-4 mt-8 sm:mt-12">
                 <button
                   style={{
                     boxShadow: "-6px 4px 64px 0 rgba(0, 0, 0, 0.25",
                   }}
-                  className="bg-[#3D893FDB] py-2 px-6 sm:w-[200px] lg:w-[250px] h-[50px] rounded-[17px] text-white text-[18px] sm:text-[20px] lg:text-[24px] font-semibold leading-[31px] cursor-pointer"
+                  className="bg-[#3D893FDB] py-2 px-6 sm:w-[200px] md:w-[400px] lg:w-[250px] max-lg:h-[70px] h-[50px] rounded-[17px] text-white text-[18px] sm:text-[20px] lg:text-[24px] font-semibold leading-[31px] cursor-pointer"
                 >
                   Add to cart
                 </button>
@@ -52,7 +52,7 @@ const Home = () => {
                   style={{
                     boxShadow: "-6px 4px 64px 0 rgba(0, 0, 0, 0.25",
                   }}
-                  className="bg-[#8B9F8BDB] py-2 px-6 sm:w-[200px] lg:w-[250px] h-[50px] rounded-[17px] text-white text-[18px] sm:text-[20px] lg:text-[24px] font-semibold leading-[31px] cursor-pointer"
+                  className="bg-[#8B9F8BDB] py-2 px-6 sm:w-[200px] md:w-[400px] lg:w-[250px] max-lg:h-[70px] h-[50px] rounded-[17px] text-white text-[18px] sm:text-[20px] lg:text-[24px] font-semibold leading-[31px] cursor-pointer"
                 >
                   Learn More
                 </button>
