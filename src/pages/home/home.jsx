@@ -10,6 +10,7 @@ import rightArrow from "../../assets/home/right-arrow.png";
 
 import TrustBadges from "./components/TrustBadges";
 import FeedBack from "./components/FeedBack";
+import BookPlant from "./components/BookPlant";
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -166,6 +167,7 @@ const Home = () => {
       <FeedBack />
 
       {/* book-plant */}
+      <BookPlant />
     </div>
   );
 };
