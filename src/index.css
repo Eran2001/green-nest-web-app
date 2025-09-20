@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #e8f6e2;
+  --color-headingLight: #97e070;
+  --color-headingDark: #647a5a;
+  --color-muted: #1e1e1e8a;
+  --color-dark: #000000;
+  --color-btnDark: #3d893fdb;
+  --color-btnLight: #8b9f8b;
+  --color-activeLink: #264d10;
+  --color-chevronDark: #2d621f;
+  --color-chevronLight: #ffffff;
+  --color-headingLightAbout: rgba(151, 224, 112, 0.4);
+
+  --font-poppins: Poppins, sans-serif;
+}
+
+@layer base {
+  :where(*, *::before, *::after) {
+    @apply m-0 p-0 box-border;
+  }
+
+  html,
+  body {
+    @apply h-full font-[var(--font-poppins)] bg-[var(--color-bg)];
+  }
+}
