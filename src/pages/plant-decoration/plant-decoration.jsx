@@ -1,7 +1,13 @@
 import React from "react";
 
+import PlantTopBanner from "./components/PlantTopBanner";
+
 const PlantDecoration = () => {
-  return <div>PlantDecoration</div>;
+  return (
+    <div>
+      <PlantTopBanner />
+    </div>
+  );
 };
 
 export default PlantDecoration;
