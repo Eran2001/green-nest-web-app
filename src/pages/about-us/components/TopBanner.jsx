@@ -4,7 +4,7 @@ import bannerImg from "../../../assets/about us/bannerImg.png";
 
 const TopBanner = () => {
   return (
-    <section className="relative w-full">
+    <section className="relative w-full max-sm:pt-26 max-lg:top-16 max-md:top-14">
       {/* Banner Image */}
       <img
         src={bannerImg}
