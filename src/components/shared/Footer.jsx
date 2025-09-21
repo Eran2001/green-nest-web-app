@@ -9,6 +9,8 @@ import fb from "../../assets/home/fb.png";
 import yt from "../../assets/home/yt.png";
 import ig from "../../assets/home/ig.png";
 
+import { IoSend } from "react-icons/io5";
+
 const Footer = () => {
   return (
     <footer className="bg-[#96BE8C8C] text-gray-800">
@@ -134,7 +136,7 @@ const Footer = () => {
                 type="submit"
                 className="bg-[#D9D9D980] px-8 py-[20px] flex items-center justify-center"
               >
-                <img src={sendIcon} alt="Send" className="w-5 h-5" />
+                <IoSend className="w-6 h-6 text-[#264D10]" />
               </button>
             </form>
           </div>
@@ -144,7 +146,7 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="bg-[#264D10A3] py-8">
         <p className="text-center text-white text-[23px] font-medium">
-          © 2025 GreenNest. All Rights Reserved.
+          © {new Date().getFullYear()} GreenNest. All Rights Reserved.
         </p>
       </div>
     </footer>

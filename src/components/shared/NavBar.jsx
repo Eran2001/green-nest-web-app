@@ -82,18 +82,38 @@ const NavBar = () => {
           {/* Icons & Hamburger */}
           <div className="flex items-center gap-6">
             <div className="hidden sm:flex gap-6">
+              {/* Contact */}
               <Link
                 to="/contact-us"
-                className={isHome ? "text-black" : "text-white"}
+                className={
+                  location.pathname === "/contact-us"
+                    ? "text-black"
+                    : isHome
+                    ? "text-black"
+                    : "text-white"
+                }
               >
                 <Icon icon="heroicons:phone" className="w-6 h-6" />
               </Link>
-              <Link to="#" className={isHome ? "text-black" : "text-white"}>
-                <Icon icon="heroicons:magnifying-glass" className="w-6 h-6" />
-              </Link>
+
+              {/* Search (example: if you later add a real page for search) */}
+              <span className={isHome ? "text-black" : "text-white"}>
+                <Icon
+                  icon="heroicons:magnifying-glass"
+                  className="w-6 h-6 cursor-pointer"
+                />
+              </span>
+
+              {/* Shopping Cart */}
               <Link
                 to="/shopping-cart"
-                className={isHome ? "text-black" : "text-white"}
+                className={
+                  location.pathname === "/shopping-cart"
+                    ? "text-black"
+                    : isHome
+                    ? "text-black"
+                    : "text-white"
+                }
               >
                 <Icon icon="heroicons:shopping-cart" className="w-6 h-6" />
               </Link>
