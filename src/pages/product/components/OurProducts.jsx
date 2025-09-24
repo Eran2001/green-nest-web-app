@@ -9,10 +9,10 @@ import img2 from "../../../assets/product/img2.png";
 import img3 from "../../../assets/product/img3.png";
 import img4 from "../../../assets/product/img4.png";
 import img5 from "../../../assets/product/img5.png";
-import img6 from "../../../assets/product/img6.png";
-import img7 from "../../../assets/product/img7.png";
-import img8 from "../../../assets/product/img8.png";
-import img9 from "../../../assets/product/img9.png";
+import img6 from "../../../assets/product/bottom-10.png";
+import img7 from "../../../assets/product/bottom-11.png";
+import img8 from "../../../assets/product/bottom-12.png";
+import img9 from "../../../assets/product/bottom-13.png";
 
 const OurProducts = () => {
   const scrollRef = useRef(null);
@@ -33,10 +33,10 @@ const OurProducts = () => {
     { name: "Peace Lily", img: img3, oldPrice: 1800, newPrice: 1500 },
     { name: "Jade plant", img: img4, oldPrice: 1800, newPrice: 1000 },
     { name: "Snake plant", img: img5, oldPrice: 2500, newPrice: 2000 },
-    { name: "Plant 6", img: img6, price: 2200 },
-    { name: "Plant 7", img: img7, price: 1900 },
-    { name: "Plant 8", img: img8, price: 2100 },
-    { name: "Plant 9", img: img9, price: 2300 },
+    { name: "Prayer Plant", img: img6, price: 2200 },
+    { name: "Chloropytum comosum", img: img7, price: 1900 },
+    { name: "Aloe-Vera", img: img8, price: 2100 },
+    { name: "Fiddle-leaf Fig", img: img9, price: 2300 },
   ];
 
   return (
