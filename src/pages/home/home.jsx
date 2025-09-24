@@ -117,7 +117,7 @@ const Home = () => {
               {/* Plant Image */}
               <img
                 className="relative z-10 w-[40%] sm:w-[50%] lg:w-[70%] object-contain"
-                src={mainImg}
+                src={heroImg}
                 alt="Hero"
               />
 
