@@ -4,13 +4,30 @@ import rightArrow from "../../../assets/home/right-arrow.png";
 
 import bottom2 from "../../../assets/home/bottom-2.png";
 import bottom3 from "../../../assets/home/bottom-3.png";
+import bottom4 from "../../../assets/home/bottom-4.png";
+import bottom5 from "../../../assets/home/bottom-5.png";
+import bottom6 from "../../../assets/home/bottom-6.png";
+import bottom7 from "../../../assets/home/bottom-7.png";
+import bottom8 from "../../../assets/home/bottom-8.png";
+import bottom9 from "../../../assets/home/bottom-9.png";
+import bottom10 from "../../../assets/home/bottom-10.png";
+import bottom11 from "../../../assets/home/bottom-11.png";
+import bottom12 from "../../../assets/home/bottom-12.png";
+import bottom13 from "../../../assets/home/bottom-13.png";
 
 const plants = [
   { name: "Monstera", desc: "(Monstera Deliciosa)", img: bottom2 },
   { name: "ZZ Plant", desc: "(Zamioculcas zamiifolia)", img: bottom3 },
-  { name: "Aloe Vera", desc: "(Aloe barbadensis)", img: bottom2 },
-  { name: "Snake Plant", desc: "(Sansevieria)", img: bottom3 },
-  // ... add all 15 plants here
+  { name: "Swiss-Cheese", desc: "(Plant)", img: bottom4 },
+  { name: "Money tree", desc: "", img: bottom5 },
+  { name: "Pothos", desc: "", img: bottom6 },
+  { name: "Dracaena Giganta", desc: "", img: bottom7 },
+  { name: "Pilea peperomioides", desc: "", img: bottom8 },
+  { name: "Lucky Bamboo", desc: "", img: bottom9 },
+  { name: "Prayer Plant", desc: "", img: bottom10 },
+  { name: "Chloropytum comosum", desc: "", img: bottom11 },
+  { name: "Aloe-Vera", desc: "", img: bottom12 },
+  { name: "Fiddle-leaf Fig", desc: "", img: bottom13 },
 ];
 
 const PlantCarousel = () => {

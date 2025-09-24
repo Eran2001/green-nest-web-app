@@ -20,10 +20,10 @@ const FeedBack = () => {
         <div className="flex flex-col items-center">
           {/* Heading */}
           <div className="text-center">
-            <h2 className="mt-4 text-[63px] font-bold text-activeLink font-pj">
+            <h2 className="mt-4 text-[40px] font-bold text-activeLink font-pj">
               What Our Customers Say
             </h2>
-            <p className="text-[31px] font-medium text-muted font-pj">
+            <p className="text-[21px] font-medium text-muted font-pj">
               We love hearing from you!
             </p>
           </div>

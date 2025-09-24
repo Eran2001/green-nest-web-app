@@ -6,6 +6,8 @@ import bottom1 from "../../assets/home/bottom-1.png";
 import bottom2 from "../../assets/home/bottom-2.png";
 import bottom3 from "../../assets/home/bottom-3.png";
 
+import mainImg from "../../assets/home/mainImage.jpg";
+
 import leftArrow from "../../assets/home/left-arrow.png";
 import rightArrow from "../../assets/home/right-arrow.png";
 
@@ -115,7 +117,7 @@ const Home = () => {
               {/* Plant Image */}
               <img
                 className="relative z-10 w-[40%] sm:w-[50%] lg:w-[70%] object-contain"
-                src={heroImg}
+                src={mainImg}
                 alt="Hero"
               />
 

@@ -22,10 +22,10 @@ const BookPlant = () => {
       <div className="container mx-auto relative z-10 px-4">
         {/* Heading */}
         <div className="text-center max-w-4xl mx-auto">
-          <h2 className="text-[50px] font-bold text-[#264D10]">
+          <h2 className="text-[40px] font-bold text-[#264D10]">
             Book a free plant consultation
           </h2>
-          <p className="mt-3 text-[#5C5555] font-medium text-[23px]">
+          <p className="mt-3 text-[#5C5555] font-medium text-[19px]">
             Need help choosing the perfect plant? Schedule a free consultation
             with our plant experts and get personalized advice tailored to your
             space, style, and lifestyle.
