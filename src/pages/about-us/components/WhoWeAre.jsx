@@ -21,17 +21,17 @@ const WhoWeAre = () => {
 
         {/* Right Content */}
         <div className="md:w-1/2 flex flex-col justify-start text-left">
-          <h2 className="text-[63px] font-bold text-[#264D10] mb-6 drop-shadow-lg">
+          <h2 className="text-[43px] font-bold text-[#264D10] mb-6 drop-shadow-lg">
             Who We Are
           </h2>
-          <p className="text-[#636A63] leading-relaxed mb-8 text-[24px">
+          <p className="text-[#636A63] leading-relaxed mb-8 text-[17px]">
             GreenNest is an innovative online platform dedicated to bringing
             nature indoors. We connect plant lovers, interior design
             enthusiasts, and urban households with curated indoor plants and
             personalized design inspirations to create healthier, more aesthetic
             living spaces.
           </p>
-          <button className="bg-gradient-to-r from-[#48EC4D] to-[#ABC6AC] text-[31px] font-bold text-white px-14 py-1 rounded-full shadow-md hover:opacity-90 transition w-auto self-start">
+          <button className="bg-gradient-to-r from-[#48EC4D] to-[#ABC6AC] text-[21px] font-bold text-white px-14 py-2 rounded-full shadow-md hover:opacity-90 transition w-auto self-start">
             See more
           </button>
         </div>

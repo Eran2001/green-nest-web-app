@@ -18,10 +18,10 @@ const VisionMission = () => {
       <div className="container mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-10 items-center relative">
         {/* Left Content */}
         <div className="relative text-center md:text-left">
-          <h2 className="text-[63px] font-bold text-[#264D10] mb-6 drop-shadow">
+          <h2 className="text-[43px] font-bold text-[#264D10] mb-6 drop-shadow">
             Our Vision
           </h2>
-          <p className="text-[#636A63] text-[27px] font-medium leading-relaxed relative z-10">
+          <p className="text-[#636A63] text-[17px] leading-relaxed relative z-10">
             To be the leading destination for indoor plants and design
             inspiration, transforming homes and workplaces into vibrant,
             sustainable environments.
@@ -47,10 +47,10 @@ const VisionMission = () => {
       {/* Mission Section */}
       <section className="relative bg-white pb-16 mt-20">
         <div className="container mx-auto max-w-7xl text-center pt-8 relative">
-          <h2 className="text-[63px] font-bold text-[#264D10] mb-6 drop-shadow">
+          <h2 className="text-[43px] font-bold text-[#264D10] mb-6 drop-shadow">
             Our Mission
           </h2>
-          <p className="text-[#636A63] text-[24px] font-medium leading-relaxed">
+          <p className="text-[#636A63] text-[17px] font-medium leading-relaxed">
             To make indoor greenery accessible and effortless by offering a
             convenient e-commerce platform, personalized styling
             recommendations, and expert guidance on plant care and design.

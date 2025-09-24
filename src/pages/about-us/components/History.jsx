@@ -18,17 +18,17 @@ const History = () => {
 
         {/* Right Content */}
         <div className="text-center md:text-left">
-          <h2 className="text-[63px] font-bold text-[#264D10] mb-6 drop-shadow">
+          <h2 className="text-[43px] font-bold text-[#264D10] mb-6 drop-shadow">
             History of Our Journey
           </h2>
-          <p className="text-[#636A63] text-[24px] font-medium leading-[34px] mb-8 tracking-[3%]">
+          <p className="text-[#636A63] text-[17px] font-medium leading-[34px] mb-8 tracking-[3%]">
             What began as a small passion for nurturing houseplants has
             blossomed into a journey of bringing nature closer to homes.
             Surrounded by the calm beauty of greenery, we realized that plants
             are more than decorations — they are companions that bring life,
             purity, and serenity into everyday spaces.
           </p>
-          <button className="bg-gradient-to-r from-[#48EC4D] to-[#ABC6AC] text-white text-[31px] font-bold px-14 py-1 rounded-[43px] shadow-md hover:opacity-90 transition w-auto">
+          <button className="bg-gradient-to-r from-[#48EC4D] to-[#ABC6AC] text-white text-[21px] font-bold px-14 py-2 rounded-[43px] shadow-md hover:opacity-90 transition w-auto">
             See more
           </button>
         </div>

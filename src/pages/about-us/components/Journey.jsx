@@ -20,7 +20,7 @@ const Journey = () => {
 
       <div className="container mx-auto max-w-6xl text-center relative z-10">
         {/* Title */}
-        <h2 className="text-[63px] font-bold text-[#264D10] mb-12 drop-shadow">
+        <h2 className="text-[43px] font-bold text-[#264D10] mb-12 drop-shadow">
           The GreenNest Journey
         </h2>
 

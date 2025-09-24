@@ -12,7 +12,7 @@ const BottomSection = () => {
       <div className="container mx-auto max-w-7xl grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
         {/* Left Card */}
         <div className="bg-white rounded-lg shadow-lg p-8 flex flex-col justify-center self-center -mt-20">
-          <p className="text-[#3C5E41] text-[24px] font-semibold mb-6 text-center">
+          <p className="text-[#3C5E41] text-[17px] font-semibold mb-6 text-center">
             Using the AI tool link below, you can easily select desired indoor
             plants from the selected room photo.
           </p>

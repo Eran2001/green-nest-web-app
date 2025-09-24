@@ -16,10 +16,10 @@ const GetInTouch = () => {
       <div className="relative container mx-auto flex flex-col lg:flex-row gap-12 items-center justify-between px-6 py-32">
         {/* Left Section */}
         <div className="lg:w-1/2 mb-8 lg:mb-0 px-4">
-          <h2 className="text-[63px] font-bold text-[#264D10] mb-4">
+          <h2 className="text-[43px] font-bold text-[#264D10] mb-4">
             Get in Touch
           </h2>
-          <p className="text-black text-[26px] font-medium leading-[47px] tracking-[2%] text-justify">
+          <p className="text-black text-[17px] font-medium leading-[27px] tracking-[2%] text-justify">
             We’d love to hear from you! Whether you have a question about our
             plants, need design advice, or want to share feedback, the GreenNest
             team is here to help.
@@ -34,7 +34,7 @@ const GetInTouch = () => {
             boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.25)",
           }}
         >
-          <h3 className="font-bold text-[39px] text-[#3C6232] mb-6">
+          <h3 className="font-bold text-[33px] text-[#3C6232] mb-6">
             Send Us a Message
           </h3>
 

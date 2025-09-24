@@ -26,29 +26,29 @@ const HowToDo = () => {
             className="absolute -top-16 -left-40 w-28 md:w-[288px] pointer-events-none select-none"
           />
 
-          <h2 className="text-[63px] font-medium text-[#264D10] mb-8 mt-32">
+          <h2 className="text-[43px] font-medium text-[#264D10] mb-8 mt-32">
             How To Do ?
           </h2>
 
           <ul className="space-y-6 text-lg text-[#333333] font-medium">
             <li className="flex items-start gap-3">
-              <span className="text-[#2A5C2CBD] text-[24px]">◈</span>
-              <p>
+              <span className="text-[#2A5C2CBD] text-[17px]">◈</span>
+              <p className="text-[17px]">
                 Customers take a well-lit, candid photo of their room (selecting
                 the room category (e.g., living room, bedroom, office) and
                 preferred style (modern, boho, minimalist).)
               </p>
             </li>
             <li className="flex items-start gap-3">
-              <span className="text-[#2A5C2CBD] text-[24px]">◈</span>
-              <p>
+              <span className="text-[#2A5C2CBD] text-[17px]">◈</span>
+              <p className="text-[17px]">
                 Use AI to select the desired indoor plants from their selected
                 room photo.
               </p>
             </li>
             <li className="flex items-start gap-3">
-              <span className="text-[#2A5C2CBD] text-[24px]">◈</span>
-              <p>
+              <span className="text-[#2A5C2CBD] text-[17px]">◈</span>
+              <p className="text-[17px]">
                 Then select the cart option on our website and get the desired
                 indoor plants
               </p>
@@ -59,7 +59,7 @@ const HowToDo = () => {
           <img
             src={arrow}
             alt="Arrow Decoration"
-            className="absolute -bottom-12 lg:block hidden right-1/2 w-32 md:w-44 pointer-events-none select-none"
+            className="absolute -bottom-16 lg:block hidden right-1/2 w-32 md:w-44 pointer-events-none select-none"
           />
         </div>
       </div>

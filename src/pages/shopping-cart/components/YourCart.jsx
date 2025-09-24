@@ -78,7 +78,7 @@ const YourCart = () => {
 
   return (
     <section className="bg-white py-12 px-6 md:px-16">
-      <h2 className="text-[63px] font-bold text-[#264D10] mb-8">Your Cart</h2>
+      <h2 className="text-[43px] font-bold text-[#264D10] mb-8">Your Cart</h2>
 
       {cartItems.length === 0 ? (
         <p className="text-center text-gray-500 text-lg">
@@ -98,16 +98,16 @@ const YourCart = () => {
             <div className="min-w-[900px]">
               {/* Header Row */}
               <div className="grid grid-cols-4 font-semibold bg-[#D9D9D9] border-none rounded-[20px] shadow-sm py-2 px-6 mb-4">
-                <span className="text-[26px] leading-[31px] text-black">
+                <span className="text-[20px] leading-[31px] text-black">
                   Product
                 </span>
-                <span className="text-[26px] leading-[31px] text-black">
+                <span className="text-[20px] leading-[31px] text-black">
                   Price
                 </span>
-                <span className="text-[26px] leading-[31px] text-black">
+                <span className="text-[20px] leading-[31px] text-black">
                   Quantity
                 </span>
-                <span className="text-[26px] leading-[31px] text-black">
+                <span className="text-[20px] leading-[31px] text-black">
                   Subtotal
                 </span>
               </div>
@@ -169,14 +169,14 @@ const YourCart = () => {
 
           {/* Order Summary */}
           <div className="w-full md:w-1/3 bg-[#E8F6E2] rounded-[26px] opacity-[70%] shadow p-6">
-            <h3 className="text-[35px] font-bold text-[#264D10] mb-6">
+            <h3 className="text-[30px] font-bold text-[#264D10] mb-6">
               Order Summary
             </h3>
             <div className="space-y-6">
               {cartItems.map((item) => (
                 <div
                   key={item.id}
-                  className="flex justify-between text-[25px] font-medium text-[#3B3737]"
+                  className="flex justify-between text-[20px] font-medium text-[#3B3737]"
                 >
                   <span>
                     {item.quantity} {item.name}
@@ -185,18 +185,18 @@ const YourCart = () => {
                 </div>
               ))}
               <div className="flex justify-between font-medium">
-                <span className="text-[25px] font-medium text-[#3B3737]">
+                <span className="text-[20px] font-medium text-[#3B3737]">
                   Sales Tax
                 </span>
-                <span className="text-[25px] font-medium text-[#3B3737]">
+                <span className="text-[20px] font-medium text-[#3B3737]">
                   Rs.{tax}
                 </span>
               </div>
               <div className="flex justify-between font-bold text-green-900">
-                <span className="text-[25px] font-medium text-[#3B3737]">
+                <span className="text-[20px] font-medium text-[#3B3737]">
                   Subtotal
                 </span>
-                <span className="text-[25px] font-medium text-[#3B3737]">
+                <span className="text-[20px] font-medium text-[#3B3737]">
                   Rs.{total}
                 </span>
               </div>

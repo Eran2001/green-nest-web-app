@@ -55,7 +55,7 @@ const OurProducts = () => {
 
       <div className="container mx-auto max-w-7xl text-center relative z-10">
         {/* Title */}
-        <h2 className="text-[63px] font-medium text-[#264D10] mb-40">
+        <h2 className="text-[43px] font-medium text-[#264D10] mb-40">
           Our Products
         </h2>
 
@@ -84,7 +84,7 @@ const OurProducts = () => {
                   alt={product.name}
                   className="w-full h-52 object-contain mb-4"
                 />
-                <h3 className="text-[32px] font-medium text-[#5C5555]">
+                <h3 className="text-[22px] font-medium text-[#5C5555]">
                   {product.name}
                 </h3>
                 <div className="mt-1">
@@ -94,7 +94,7 @@ const OurProducts = () => {
                     </span>
                   )}
                   <span
-                    className={`block text-[20px] font-normal ${
+                    className={`block text-[14px] font-normal ${
                       product.newPrice ? "text-[#E31616]" : "text-[#5C5555]"
                     }`}
                   >
