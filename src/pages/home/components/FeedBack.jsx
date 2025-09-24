@@ -29,7 +29,7 @@ const FeedBack = () => {
           </div>
 
           {/* Cards */}
-          <div className="relative mt-16 grid max-w-lg grid-cols-1 gap-20 mx-auto md:max-w-none md:grid-cols-2 lg:grid-cols-3">
+          <div className="relative mt-16 grid max-w-lg grid-cols-1 gap-10 mx-auto md:max-w-none md:grid-cols-2 lg:grid-cols-3">
             {/* Left card */}
             <div
               className="relative flex flex-col pt-10"

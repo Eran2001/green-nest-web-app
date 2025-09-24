@@ -204,7 +204,7 @@ const YourCart = () => {
 
             <div className="px-6">
               <button className="w-full mt-6 bg-[#4E6A3EF0] text-white py-2 text-[25px] font-semibold rounded-[22px] transition">
-                Checkout
+                Submit
               </button>
             </div>
           </div>

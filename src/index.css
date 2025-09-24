@@ -26,3 +26,13 @@
     @apply h-full font-[var(--font-poppins)] bg-[var(--color-bg)];
   }
 }
+
+/* Hide scrollbar but keep scroll functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE & Edge */
+  scrollbar-width: none; /* Firefox */
+}

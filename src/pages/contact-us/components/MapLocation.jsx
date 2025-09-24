@@ -10,9 +10,9 @@ import callIcon from "../../../assets/contact us/call.png";
 const MapLocation = () => {
   return (
     <section className="pb-12 pt-30 relative">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-10 px-6 md:px-16">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between md:justify-center gap-10 px-6 md:px-16">
         {/* Map */}
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-[400px]">
           <img
             src={mapimg}
             alt="Map Location"
@@ -21,16 +21,16 @@ const MapLocation = () => {
         </div>
 
         {/* Contact Info */}
-        <div className="w-full md:w-1/2 flex flex-col justify-center items-center">
+        <div className="w-full md:w-[400px] flex flex-col justify-center items-center">
           <div className="flex flex-col gap-8 w-fit">
             {/* Address */}
             <div className="flex items-center gap-6">
               <img
                 src={locationIcon}
                 alt="Location"
-                className="w-10 h-10 md:w-8 lg:w-12 md:h-8 lg:h-12"
+                className="w-6 h-6 md:w-8 lg:w-8 md:h-8 lg:h-8"
               />
-              <p className="text-[#636A63] text-[28px] max-lg:text-base lg;text-[30px] xl:text-[32px] font-semibold leading-tight">
+              <p className="text-[#636A63] text-[20px] max-lg:text-base lg:text-[20px] xl:text-[25px] font-semibold leading-tight">
                 No.225, Jaya Mawatha, <br /> Pasayala.
               </p>
             </div>
@@ -40,9 +40,9 @@ const MapLocation = () => {
               <img
                 src={phoneIcon}
                 alt="Phone"
-                className="w-10 h-10 md:w-8 lg:w-12 md:h-8 lg:h-12"
+                className="w-6 h-6 md:w-8 lg:w-8 md:h-8 lg:h-8"
               />
-              <p className="text-[#636A63] text-[28px] max-lg:text-base lg;text-[30px] xl:text-[32px] font-semibold leading-tight">
+              <p className="text-[#636A63] text-[20px] max-lg:text-base lg:text-[20px] xl:text-[25px] font-semibold leading-tight">
                 +9471 5134456
               </p>
             </div>
@@ -52,9 +52,9 @@ const MapLocation = () => {
               <img
                 src={mailIcon}
                 alt="Email"
-                className="w-10 h-10 md:w-8 lg:w-12 md:h-8 lg:h-12"
+                className="w-6 h-6 md:w-8 lg:w-8 md:h-8 lg:h-8"
               />
-              <p className="text-[#636A63] text-[28px] max-lg:text-base lg;text-[30px] xl:text-[32px] font-semibold leading-tight">
+              <p className="text-[#636A63] text-[20px] max-lg:text-base lg:text-[20px] xl:text-[25px] font-semibold leading-tight">
                 Greennest@gmail.com
               </p>
             </div>
@@ -64,9 +64,9 @@ const MapLocation = () => {
               <img
                 src={callIcon}
                 alt="24/7"
-                className="w-10 h-10 md:w-8 lg:w-12 md:h-8 lg:h-12"
+                className="w-6 h-6 md:w-8 lg:w-8 md:h-8 lg:h-8"
               />
-              <p className="text-[#636A63] text-[28px] max-lg:text-base lg;text-[30px] xl:text-[32px] font-semibold leading-tight">
+              <p className="text-[#636A63] text-[20px] max-lg:text-base lg:text-[20px] xl:text-[25px] font-semibold leading-tight">
                 We’re Here 24/7
               </p>
             </div>

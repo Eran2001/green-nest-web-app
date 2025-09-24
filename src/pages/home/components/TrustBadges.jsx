@@ -12,12 +12,12 @@ const TrustBadges = () => {
             <img
               src={firstBadge}
               alt="Support Badge"
-              className="mx-auto w-16 h-16 sm:w-[134px] sm:h-[134px] object-contain"
+              className="mx-auto w-16 h-16 sm:w-[107px] sm:h-[107px] object-contain"
             />
-            <h3 className="text-[31px] font-bold text-gray-900 font-pj">
+            <h3 className="text-[23px] font-bold text-gray-900 font-pj">
               Safe Payments
             </h3>
-            <p className="mt-5 text-[23px] font-bold text-[#767676] font-pj">
+            <p className="mt-5 text-[17px] font-bold text-[#767676] font-pj">
               Secure and protected checkout.
             </p>
           </div>
@@ -27,12 +27,12 @@ const TrustBadges = () => {
             <img
               src={secondBadge}
               alt="Sales Badge"
-              className="mx-auto w-16 h-16 sm:w-[125px] sm:h-[125px] object-contain"
+              className="mx-auto w-16 h-16 sm:w-[100px] sm:h-[100px] object-contain"
             />
-            <h3 className="mt-2 text-[31px] font-bold text-gray-900 font-pj">
+            <h3 className="mt-2 text-[23px] font-bold text-gray-900 font-pj">
               Shop with Confidence
             </h3>
-            <p className="mt-5 text-[23px] font-bold text-[#767676] font-pj">
+            <p className="mt-5 text-[17px] font-bold text-[#767676] font-pj">
               Trusted payments, guaranteed protection.
             </p>
           </div>
@@ -42,12 +42,12 @@ const TrustBadges = () => {
             <img
               src={thirdBadge}
               alt="Onboarding Badge"
-              className="mx-auto w-16 h-16 sm:w-[100px] sm:h-[100px] object-contain"
+              className="mx-auto w-16 h-16 sm:w-[70px] sm:h-[70px] object-contain"
             />
-            <h3 className="mt-8 text-[31px] font-bold text-gray-900 font-pj">
+            <h3 className="mt-8 text-[23px] font-bold text-gray-900 font-pj">
               24/7 Support
             </h3>
-            <p className="mt-5 text-[23px] font-bold text-[#767676]  font-pj">
+            <p className="mt-5 text-[17px] font-bold text-[#767676]  font-pj">
               We're here anytime you need us.
             </p>
           </div>

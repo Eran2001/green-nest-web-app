@@ -54,7 +54,7 @@ const BookPlant = () => {
             className="w-full px-4 py-3 border bg-white border-gray-300 rounded-lg focus:ring-2 focus:ring-[#6EB670DB] focus:outline-none cursor-pointer"
           />
           <button
-            type="submit"
+            type="button"
             className="w-full bg-[#6EB670DB] text-[21px] font-bold text-white py-3 rounded-lg shadow transition cursor-pointer"
           >
             Book Now

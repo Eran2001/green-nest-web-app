@@ -9,13 +9,13 @@ const PlantTopBanner = () => {
       <img
         src={bannerTop}
         alt="top-banner"
-        className="w-full xl:h-[600px] max-xl:h-[600px] max-lg:h-[500px] object-cover"
+        className="w-full xl:h-[450px] max-xl:h-[300px] max-lg:h-[300px] object-cover"
       />
 
       {/* Overlay Content */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center">
+      <div className="absolute inset-0 flex flex-col items-center justify-end text-white text-center pb-4 xl:pb-20">
         {/* Big Title */}
-        <h1 className="text-[135px] max-xl:text-[90px] max-lg:text-[70px] max-md:text-[50px] font-bold leading-none">
+        <h1 className="text-[90px] max-xl:text-[80px] max-lg:text-[60px] max-md:text-[40px] font-bold leading-none">
           PLANT DECORATION
         </h1>
 

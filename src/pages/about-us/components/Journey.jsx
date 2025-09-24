@@ -29,32 +29,32 @@ const Journey = () => {
           <img
             src={img1}
             alt="Plant 1"
-            className="w-full h-[400px] object-cover rounded-lg shadow-md"
+            className="w-full h-[250px] object-cover rounded-lg shadow-md"
           />
           <img
             src={img2}
             alt="Plant 2"
-            className="w-full h-[400px] object-cover rounded-lg shadow-md"
+            className="w-full h-[250px] object-cover rounded-lg shadow-md"
           />
           <img
             src={img3}
             alt="Plant 3"
-            className="w-full h-[400px] object-cover rounded-lg shadow-md"
+            className="w-full h-[250px] object-cover rounded-lg shadow-md"
           />
           <img
             src={img4}
             alt="Plant 4"
-            className="w-full h-[400px] object-cover rounded-lg shadow-md"
+            className="w-full h-[250px] object-cover rounded-lg shadow-md"
           />
           <img
             src={img5}
             alt="Plant 5"
-            className="w-full h-[400px] object-cover rounded-lg shadow-md"
+            className="w-full h-[250px] object-cover rounded-lg shadow-md"
           />
           <img
             src={img6}
             alt="Plant 6"
-            className="w-full h-[400px] object-cover rounded-lg shadow-md"
+            className="w-full h-[250px] object-cover rounded-lg shadow-md"
           />
         </div>
       </div>

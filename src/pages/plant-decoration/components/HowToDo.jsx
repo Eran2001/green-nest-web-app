@@ -59,7 +59,7 @@ const HowToDo = () => {
           <img
             src={arrow}
             alt="Arrow Decoration"
-            className="absolute -bottom-12 right-0 w-32 md:w-40 pointer-events-none select-none"
+            className="absolute -bottom-12 lg:block hidden right-1/2 w-32 md:w-44 pointer-events-none select-none"
           />
         </div>
       </div>

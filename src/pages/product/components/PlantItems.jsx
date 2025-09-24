@@ -1,17 +1,17 @@
 import React from "react";
 
 import bottomRight from "../../../assets/product/bottomRight.png";
-import img1 from "../../../assets/product/img1.png";
-import img2 from "../../../assets/product/img2.png";
-import img3 from "../../../assets/product/img3.png";
-import img4 from "../../../assets/product/img4.png";
+import img7 from "../../../assets/product/img7.png";
+import img6 from "../../../assets/product/img6.png";
+import img8 from "../../../assets/product/img8.png";
+import img9 from "../../../assets/product/img9.png";
 
 const PlantItems = () => {
   const items = [
-    { title: "House plants", img: img1 },
-    { title: "Office plants", img: img2 },
-    { title: "Bonsais", img: img3 },
-    { title: "Accessories", img: img4 },
+    { title: "House plants", img: img7 },
+    { title: "Office plants", img: img6 },
+    { title: "Bonsais", img: img8 },
+    { title: "Accessories", img: img9 },
   ];
 
   return (
