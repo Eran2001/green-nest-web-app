@@ -11,11 +11,11 @@ const WhoWeAre = () => {
       {/* Card */}
       <div className="relative container mx-auto max-w-6xl bg-[#FCFFFD66] rounded-lg shadow-xl p-6 md:p-12 flex flex-col md:flex-row items-center gap-10">
         {/* Left Image */}
-        <div className="md:w-1/2 flex justify-center md:justify-start">
+        <div className="md:w-1/2 flex justify-center md:justify-center">
           <img
             src={leftImg}
             alt="Who We Are"
-            className="shadow-lg w-full h-64 md:h-[500px] object-cover"
+            className="shadow-lg w-auto h-64 md:h-[400px] object-cover"
           />
         </div>
 

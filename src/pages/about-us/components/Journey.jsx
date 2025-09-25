@@ -15,7 +15,7 @@ const Journey = () => {
       <img
         src={bottomImg}
         alt="Decorative Leaf"
-        className="absolute top-0 left-0 w-64 md:w-[700px] opacity-40 pointer-events-none select-none"
+        className="absolute top-0 left-0 w-64 md:w-[700px] md:h-[200px] opacity-40 pointer-events-none select-none"
       />
 
       <div className="container mx-auto max-w-6xl text-center relative z-10">

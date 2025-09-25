@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import heroImg from "@/assets/home/main-image.png";
+import heroImg from "../../assets/home/newImgMain.png";
 import bottom1 from "../../assets/home/bottom-1.png";
 import bottom2 from "../../assets/home/bottom-2.png";
 import bottom3 from "../../assets/home/bottom-3.png";
@@ -34,7 +34,7 @@ const Home = () => {
     <div className="">
       {/* Hero Section */}
       <section className="">
-        <div className="relative max-sm:px-4 mx-auto max-w-7xl">
+        <div className="relative max-sm:px-4 mx-auto ;g max-w-7xl">
           {/* Bottom Left Image */}
           <img
             src={bottomRight}
@@ -97,7 +97,7 @@ const Home = () => {
             </div>
 
             {/* Right Image */}
-            <div className="flex justify-center max-lg:pl-8 lg:pl-8 lg:justify-start relative lg:right-10">
+            <div className="flex justify-center max-lg:pl-8 lg:pl-4 lg:justify-end relative lg:right-10">
               {/* Outer Ring */}
               <div
                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
@@ -116,7 +116,7 @@ const Home = () => {
 
               {/* Plant Image */}
               <img
-                className="relative z-10 w-[40%] sm:w-[50%] lg:w-[70%] object-contain"
+                className="relative z-10 w-[40%] sm:w-[50%] lg:w-[80%] object-contain"
                 src={heroImg}
                 alt="Hero"
               />

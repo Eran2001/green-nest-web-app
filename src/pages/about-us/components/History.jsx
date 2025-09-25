@@ -8,11 +8,11 @@ const History = () => {
     <section className="relative bg-[#EAF5E7] py-16 overflow-hidden">
       <div className="container mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Left Image */}
-        <div className="flex justify-center md:justify-start">
+        <div className="flex justify-center md:justify-center">
           <img
             src={ladyPlant}
             alt="History Lady"
-            className="w-full max-w-sm md:max-w-md shadow-lg rounded-md object-cover"
+            className="w-full max-w-sm md:max-w-sm md:h-[400px] shadow-lg rounded-md object-cover"
           />
         </div>
 

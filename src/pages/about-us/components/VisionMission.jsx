@@ -33,7 +33,7 @@ const VisionMission = () => {
           <img
             src={ladyImg}
             alt="Lady holding plant"
-            className="w-full max-w-sm shadow-lg object-cover"
+            className="w-full max-w-sm shadow-lg md:h-[450px] object-cover"
           />
           {/* Aloe positioned relative to lady image */}
           <img

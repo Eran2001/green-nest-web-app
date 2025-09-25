@@ -44,7 +44,7 @@ const GetInTouch = () => {
               type="text"
               placeholder="enter name"
               style={{ boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.25)" }}
-              className="w-full px-4 py-2 text-[20px] font-semibold border border-none bg-white rounded-[21px] focus:outline-none"
+              className="w-full px-4 py-2 text-base font-normal border border-none bg-white rounded-[21px] focus:outline-none"
             />
 
             {/* Email */}
@@ -52,7 +52,7 @@ const GetInTouch = () => {
               type="email"
               placeholder="enter email"
               style={{ boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.25)" }}
-              className="w-full px-4 py-2 text-[20px] font-semibold border-none bg-white rounded-[21px]  border focus:outline-none"
+              className="w-full px-4 py-2 text-base font-normal border-none bg-white rounded-[21px]  border focus:outline-none"
             />
 
             {/* Phone */}
@@ -60,7 +60,7 @@ const GetInTouch = () => {
               type="text"
               placeholder="enter number"
               style={{ boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.25)" }}
-              className="w-full px-4 py-2 text-[20px] font-semibold border-none bg-white rounded-[21px]  border focus:outline-none"
+              className="w-full px-4 py-2 text-base font-normal border-none bg-white rounded-[21px]  border focus:outline-none"
             />
 
             {/* Message */}
@@ -68,14 +68,14 @@ const GetInTouch = () => {
               rows="4"
               placeholder="Message"
               style={{ boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.25)" }}
-              className="w-full px-4 py-2 text-[20px] font-semibold border-none bg-white rounded-[21px]  border focus:outline-none"
+              className="w-full px-4 py-2 text-base font-normal border-none bg-white rounded-[21px]  border focus:outline-none"
             ></textarea>
 
             {/* Button */}
             <div className="flex justify-center">
               <button
                 type="button"
-                className="bg-[#4E6A3EF0] text-white text-[25px] font-semibold px-20 py-2 rounded-[22px] transition cursor-pointer"
+                className="bg-[#4E6A3EF0] text-white text-[18px] font-normal px-20 py-2 rounded-[22px] transition cursor-pointer"
               >
                 Send Message
               </button>

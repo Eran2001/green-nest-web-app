@@ -6,7 +6,7 @@ import avatar3 from "../../../assets/home/image 11.png";
 
 const FeedBack = () => {
   return (
-    <section className="relative py-0">
+    <section className="relative py-0 pb-20">
       {/* Responsive background leaf */}
       <div className="absolute top-0 left-6 bottom-0 w-1/3 -z-10 flex max-lg:hidden">
         <img
@@ -171,11 +171,11 @@ const FeedBack = () => {
             </div>
           </div>
 
-          <div className="flex justify-center mt-10 mb-6 space-x-3">
+          {/* <div className="flex justify-center mt-10 mb-6 space-x-3">
             <span className="w-3 h-3 bg-[#5C5555] rounded-full"></span>
             <span className="w-3 h-3 bg-[#5C5555] rounded-full"></span>
             <span className="w-3 h-3 bg-[#5C5555] rounded-full"></span>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
