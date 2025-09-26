@@ -6,12 +6,15 @@ import img6 from "../../../assets/product/img6.png";
 import img8 from "../../../assets/product/img8.png";
 import img9 from "../../../assets/product/img9.png";
 
+import { useNavigate } from "react-router-dom";
+
 const PlantItems = () => {
+  const navigate = useNavigate();
   const items = [
-    { title: "House plants", img: img7 },
-    { title: "Office plants", img: img6 },
-    { title: "Bonsais", img: img8 },
-    { title: "Accessories", img: img9 },
+    { title: "House plants", img: img7, link: "/products/house-plants" },
+    { title: "Office plants", img: img6, link: "" },
+    { title: "Bonsais", img: img8, link: "" },
+    { title: "Accessories", img: img9, link: "" },
   ];
 
   return (
@@ -19,15 +22,16 @@ const PlantItems = () => {
       <div className="container mx-auto max-w-6xl relative z-10">
         {/* Outer White Box */}
         <div className="bg-white rounded-2xl shadow-xl p-10 grid grid-cols-1 md:grid-cols-2 gap-8">
-          {items.map(({ title, img }, index) => (
+          {items.map(({ title, img, link }, index) => (
             <div
               key={index}
               className="relative bg-[#e8f6e2] rounded-xl shadow-md p-6 flex justify-end items-center"
             >
               {/* Title at bottom-left with underline */}
               <h3
+                onClick={() => navigate(link)}
                 className="absolute bottom-4 left-6 text-[22px] font-semibold text-[#264D10] 
-                after:content-[''] after:block after:w-12 after:h-[2px] after:bg-[#264D10] after:mt-1"
+                after:content-[''] after:block after:w-12 after:h-[2px] after:bg-[#264D10] after:mt-1 cursor-pointer"
               >
                 {title}
               </h3>

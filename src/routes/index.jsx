@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 
 import MainLayout from "@/layouts/MainLayout";
 import ErrorPage from "@/components/shared/ErrorPage";
+import HousePlant from "@/pages/product/pages/HousePlant";
 
 const Home = lazy(() => import("@/pages/home/home"));
 const AboutUs = lazy(() => import("@/pages/about-us/about-us"));
@@ -24,6 +25,7 @@ export const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "about-us", element: <AboutUs /> },
       { path: "products", element: <Product /> },
+      { path: "products/house-plants", element: <HousePlant /> },
       { path: "plant-decoration", element: <PlantDecoration /> },
       { path: "contact-us", element: <ContactUs /> },
       { path: "shopping-cart", element: <ShoppingCart /> },
